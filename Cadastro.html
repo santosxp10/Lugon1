@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulário de Cadastro</title>
+            <link rel="stylesheet" href="Cadastro.css">
+        <body>
+            <div class= "form">
+            <h1>Formulário de Cadastro</h1>
+            <form action="processar_dados.php" method="POST">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+        
+                <label for="cpf">CPF:</label><br>
+                <input type="text" id="cpf" name="cpf" required><br><br>
+        
+                <label for="endereco">Endereço:</label><br>
+                <input type="text" id="endereco" name="endereco" required><br><br>
+        
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" required><br><br>
+        
+                <label for="cep">CEP:</label><br>
+                <input type="text" id="cep" name="cep" required><br><br>
+        
+                <label for="descricao_produto">Descrição do Produto Desejado:</label><br>
+                <textarea id="descricao_produto" name="descricao_produto" rows="8" cols="80" required></textarea><br><br>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        </body>
+        </html>
